@@ -26,7 +26,7 @@
         time = time - 1
         If (time <= 0) Then
             Timer1.Stop()
-            My.Computer.Audio.Play("C:\Users\Arya\Desktop\Timer App\aesthetic.wav")
+            My.Computer.Audio.Play("C:\Users\Arya\Github\Timer-App\aesthetic.wav")
             MsgBox("TIMER FINISHED")
         End If
 
